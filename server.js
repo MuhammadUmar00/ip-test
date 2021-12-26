@@ -1,5 +1,5 @@
 const express = require('express');
-const lookup = require('geoip-lite');
+const { lookup } = require('geoip-lite');
 const PORT = 8000 | process.env.PORT 
 const app = express();
 
