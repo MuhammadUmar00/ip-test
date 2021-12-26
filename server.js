@@ -10,4 +10,4 @@ app.get("/",(req, res)=>{
     return res.send(lookup(ip))
 })
 
-app.listen(PORT,()=>{console.log(`server is running on ${PORT}`);})
+app.listen(PORT)
